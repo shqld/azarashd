@@ -1,0 +1,13 @@
+{
+  "name": "@mysite/site",
+  "private": true,
+  "scripts": {
+    "start": "open http://localhost:5000 && serve src"
+  },
+  "dependencies": {
+    "bulma": "^0.7.5"
+  },
+  "devDependencies": {
+    "serve": "^11.0.0"
+  }
+}

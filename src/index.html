@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Azarashi</title>
+    <link rel="stylesheet" href="/bulma.css" />
+    <script defer>
+      window.state = { list: [{ title: 'hello', content: 'hello, world' }] }
+    </script>
+    <script defer type="module" src="/main.js"></script>
+    <!-- <link rel="prefetch" href="/index.js"> -->
+  </head>
+  <body>
+    <main class="main">
+      <section class="section">
+        <button class="button">aaaa</button>
+        <x-list></x-list>
+      </section>
+    </main>
+    <template id="item">
+      <h2></h2>
+      <div></div>
+    </template>
+  </body>
+</html>
