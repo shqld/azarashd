@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "front-matter": "^3.0.2",
-    "marked": "^0.6.2",
+    "marked": "^4.0.10",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.3",
     "serve": "^11.0.0"
